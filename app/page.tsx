@@ -32,10 +32,10 @@ export default function Home() {
           </div>
 
           <div className="flex items-center gap-6 justify-between text-sm">
-            <a className="border border-neutral-200 w-full gap-2 dark:border-neutral-800 py-2 px-3 rounded-md" href={siteConfig.locationLink}>
+            <a className="flex justify-center border border-neutral-200 w-full gap-2 dark:border-neutral-800 py-2 px-3 rounded-md" href={siteConfig.locationLink}>
               {siteConfig.location}
             </a>
-            <a className="border border-neutral-200 w-full gap-2 dark:border-neutral-800 py-2 px-3 rounded-md" href={`mailto:${siteConfig.email}`}>
+            <a className="flex justify-center border border-neutral-200 w-full gap-2 dark:border-neutral-800 py-2 px-3 rounded-md" href={`mailto:${siteConfig.email}`}>
               Contact Me
             </a>
           </div>
