@@ -1,4 +1,3 @@
-// import { ThemeToggle } from '@/components/theme.toggle'
 import { LuMapPin, LuMail } from "react-icons/lu";
 import { ThemeToggle } from '@/components/theme.toggle'
 import { siteConfig } from '@/config/site.config'
