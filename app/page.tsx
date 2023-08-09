@@ -1,6 +1,5 @@
 // import { ThemeToggle } from '@/components/theme.toggle'
 import { siteConfig } from '@/config/site.config'
-import { MapPin } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Home() {
