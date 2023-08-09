@@ -12,8 +12,8 @@ export default function Home() {
             className="rounded-lg"
             alt="raka-fadilah"
             src="/about.jpg"
-            width="90"
-            height="90"
+            width="115"
+            height="115"
             priority
             loading="eager" 
           />
