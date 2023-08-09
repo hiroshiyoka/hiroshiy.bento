@@ -3,6 +3,10 @@ import { LuMapPin, LuMail } from "react-icons/lu";
 import { ThemeToggle } from '@/components/theme.toggle'
 import { siteConfig } from '@/config/site.config'
 import Image from 'next/image'
+import { Grid } from "lucide-react";
+
+const GridItems = new Array(36).fill(0);
+
 
 export default function Home() {
   return (
@@ -52,9 +56,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex-1 p-6 h-full">
-        <div className="flex items-center justify-center h-full rounded-md dark:bg-emerald-700">
-          Right Side
+      <div className="flex-1 h-full">
+        <div className="w-full h-full p-6 overflow-y-auto grid grid-cols-4 auto-rows-[76px] gap-10">
+          {GridItems.map((item, index) => {
+            return <div key={index} className="bg-emerald-100 rounded-md" /> 
+          })}
         </div>
       </div>
     </main>
