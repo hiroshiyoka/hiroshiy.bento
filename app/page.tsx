@@ -19,6 +19,24 @@ const GridItems2 = [
   {
     className: "rounded-md bg-emerald-100 col-span-2 row-span-4",
   },
+  {
+    className: "rounded-md bg-emerald-100 col-span-2 row-span-2",
+  },
+  {
+    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
+  },
+  {
+    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
+  },
+  {
+    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
+  },
+  {
+    className: "rounded-md bg-emerald-100 col-span-2 row-span-2",
+  },
+  {
+    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
+  },
 ];
 
 export default function Home() {
@@ -71,8 +89,8 @@ export default function Home() {
 
       <div className="flex-1 h-full">
         <div className="w-full h-full p-6 overflow-y-auto grid grid-cols-4 auto-rows-[76px] gap-10">
-          {GridItems.map((item, index) => {
-            return <div key={index} className="bg-emerald-100 rounded-md" /> 
+          {GridItems2.map((item, index) => {
+            return <div key={index} className={item.className} /> 
           })}
         </div>
       </div>
