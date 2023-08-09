@@ -40,8 +40,10 @@ export default function Home() {
             </a>
           </div>
           
-          <div>
-            <div></div>
+          <div className="border border-t border-neutral-200 dark:border-neutral-800 pt-6 text-xs flex items-center justify-between">
+            <div className="text-neutral-500">
+              Built by @mosaicman_ | ©2023 hiroshiyoka. All Rights Reserved
+            </div>
           </div>
         </div>
       </div>
