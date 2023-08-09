@@ -1,4 +1,6 @@
 // import { ThemeToggle } from '@/components/theme.toggle'
+import { LuMapPin, LuMail } from "react-icons/lu";
+import { ThemeToggle } from '@/components/theme.toggle'
 import { siteConfig } from '@/config/site.config'
 import Image from 'next/image'
 
@@ -31,10 +33,12 @@ export default function Home() {
           </div>
 
           <div className="flex items-center gap-6 justify-between text-sm">
-            <a className="flex justify-center border border-neutral-200 w-full gap-2 dark:border-neutral-800 py-2 px-3 rounded-md" href={siteConfig.locationLink}>
+            <a className="flex items-center border border-neutral-200 w-full gap-2 dark:border-neutral-800 py-2 px-3 rounded-md" href={siteConfig.locationLink}>
+              <LuMapPin size="16" />
               {siteConfig.location}
             </a>
-            <a className="flex justify-center border border-neutral-200 w-full gap-2 dark:border-neutral-800 py-2 px-3 rounded-md" href={`mailto:${siteConfig.email}`}>
+            <a className="flex items-center border border-neutral-200 w-full gap-2 dark:border-neutral-800 py-2 px-3 rounded-md" href={`mailto:${siteConfig.email}`}>
+              <LuMail size="16" />
               Contact Me
             </a>
           </div>
@@ -43,6 +47,7 @@ export default function Home() {
             <div className="text-neutral-500">
               Built by @hiroshiy | ©2023 hiroshiyoka. All Rights Reserved
             </div>
+            <ThemeToggle />
           </div>
         </div>
       </div>
