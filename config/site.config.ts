@@ -1,3 +1,10 @@
+export type GridItemLayout = "1x2" | "2x1" | "2X2" | "2x4";
+export type GridItemType = "social" | "music" | "project"
+export type EquipmentsItem = {
+    title: string;
+    link: string;
+}
+
 export const siteConfig = {
     creator: "Raka Fadilah",
     title: "Frontend Developer",
