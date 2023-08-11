@@ -1,7 +1,6 @@
 "use client";
 
 import { LuMoon, LuSun } from "react-icons/lu"
-import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 
 export function ThemeToggle() {

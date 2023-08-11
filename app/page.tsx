@@ -2,39 +2,38 @@ import { LuMapPin, LuMail } from "react-icons/lu";
 import { ThemeToggle } from '@/components/theme.toggle'
 import { siteConfig } from '@/config/site.config'
 import Image from 'next/image'
-import { Grid } from "lucide-react";
 
 const GridItems = new Array(36).fill(0);
 const GridItems2 = [
   {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-2",
+    className: "rounded-lg bg-emerald-100 col-span-2 row-span-2",
   },
   {
-    className: "rounded-md bg-emerald-100 col-span-1 row-span-2",
+    className: "rounded-lg bg-emerald-100 col-span-1 row-span-2",
   },
   {
-    className: "rounded-md bg-emerald-100 col-span-1 row-span-2",
+    className: "rounded-lg bg-emerald-100 col-span-1 row-span-2",
   },
   {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-4",
+    className: "rounded-lg bg-emerald-100 col-span-2 row-span-4",
   },
   {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-2",
+    className: "rounded-lg bg-emerald-100 col-span-2 row-span-2",
   },
   {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
+    className: "rounded-lg bg-emerald-100 col-span-2 row-span-1",
   },
   {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
+    className: "rounded-lg bg-emerald-100 col-span-2 row-span-1",
   },
   {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
+    className: "rounded-lg bg-emerald-100 col-span-2 row-span-1",
   },
   {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-2",
+    className: "rounded-lg bg-emerald-100 col-span-2 row-span-2",
   },
   {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
+    className: "rounded-lg bg-emerald-100 col-span-2 row-span-1",
   },
 ];
 
