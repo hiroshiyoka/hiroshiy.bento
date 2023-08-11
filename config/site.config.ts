@@ -5,6 +5,19 @@ export type EquipmentsItem = {
     link: string;
 }
 
+export interface GridItemInterface {
+    layout: GridItemLayout;
+    type: GridItemType;
+    title: string;
+    icon?: string;
+    username?: string;
+    description?: string;
+    color?: string;
+    buttonTitle?: string;
+    buttonSecondaryTitle?: string;
+    stars?: number;
+}
+
 export const siteConfig = {
     creator: "Raka Fadilah",
     title: "Frontend Developer",
