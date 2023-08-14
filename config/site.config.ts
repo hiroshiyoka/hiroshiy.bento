@@ -28,7 +28,7 @@ const GridItems: GridItemInterface[] = [
         username: "hiroshiyoka",
         description:
             "",
-        color: "#ff0000",
+        color: "#070707",
         buttonTitle: "Follow",
         buttonLink: "https://github.com/hiroshiyoka",
         buttonSecondaryText: "0",
@@ -39,7 +39,7 @@ const GridItems: GridItemInterface[] = [
         title: "Twitter",
         icon: "twitter",
         username: "@mosaicman_",
-        color: "#5865f2",
+        color: "#1da1f2",
         buttonTitle: "Follow",
         buttonLink: "https://twitter.com/mosaicman_",
         buttonSecondaryText: "12",
@@ -50,10 +50,10 @@ const GridItems: GridItemInterface[] = [
         title: "LinkedIn",
         icon: "linkedin",
         username: "Raka Fadilah Syafaat",
+        color: "#070707",
         buttonTitle: "Connect",
         buttonLink: "https://linkedin.com/in/raka-fadilah",
         buttonSecondaryText: "40",
-        color: "#070707",
     }
 ]
 
