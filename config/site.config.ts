@@ -1,4 +1,4 @@
-export type GridItemLayout = "1x2" | "2x1" | "2X2" | "2x4";
+export type GridItemLayout = "1x2" | "2x1" | "2x2" | "2x4";
 export type GridItemType = "social" | "music" | "project"
 export type EquipmentsItem = {
     title: string;
@@ -14,7 +14,8 @@ export interface GridItemInterface {
     description?: string;
     color?: string;
     buttonTitle?: string;
-    buttonSecondaryTitle?: string;
+    buttonLink?: string;
+    buttonSecondaryText?: string;
     stars?: number;
 }
 
