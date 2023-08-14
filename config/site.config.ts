@@ -19,6 +19,22 @@ export interface GridItemInterface {
     stars?: number;
 }
 
+const GridItems: GridItemInterface[] = [
+    {
+        layout: "2x2",
+        type: "social",
+        title: "Github",
+        icon: "github",
+        username: "hiroshiyoka",
+        description:
+            "",
+        color: "#ff0000",
+        buttonTitle: "Follow",
+        buttonLink: "https://github.com/hiroshiyoka",
+        buttonSecondaryText: "0",
+    }
+]
+
 export const siteConfig = {
     creator: "Raka Fadilah",
     title: "Frontend Developer",
