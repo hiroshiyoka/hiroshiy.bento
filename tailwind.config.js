@@ -19,7 +19,7 @@ module.exports = {
           grid: "0px 4px 10px 0px rgba(0, 0, 0, 0.05);",
         },
         fontFamily: {
-          sans: ("var(--font-sfpro)"),
+          sans: ["var(--font-sfpro)"],
         },
       },
     },
