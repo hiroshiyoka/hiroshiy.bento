@@ -100,6 +100,24 @@ const GridItems: GridItemInterface[] = [
         buttonSecondaryText: "111",
         color: "#ff0000",
     },
+    {
+        layout: "2x1",
+        type: "project",
+        title: "Restful API using Golang",
+        icon: "github",
+        color: "#070707",
+        buttonLink: "https://github.com/hiroshiyoka/task-5-vix-btpns-Raka",
+        stars: 0,
+    },
+    {
+        layout: "2x1",
+        type: "project",
+        title: "Hospital Menu - CRUD",
+        icon: "github",
+        color: "#070707",
+        buttonLink: "https://github.com/hiroshiyoka/hospital-menu-CRUD",
+        stars: 0,
+    },
 ]
 
 export const siteConfig = {
