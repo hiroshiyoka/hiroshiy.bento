@@ -26,15 +26,6 @@ const GridItems2 = [
   {
     className: "rounded-lg bg-emerald-100 col-span-2 row-span-1",
   },
-  {
-    className: "rounded-lg bg-emerald-100 col-span-2 row-span-1",
-  },
-  {
-    className: "rounded-lg bg-emerald-100 col-span-2 row-span-2",
-  },
-  {
-    className: "rounded-lg bg-emerald-100 col-span-2 row-span-1",
-  },
 ];
 
 export default function Home() {
