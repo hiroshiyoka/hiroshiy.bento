@@ -12,7 +12,6 @@ module.exports = {
           primary: "#6178F1",
           youtube: "#FF0000",
           twitter: "#1DA1F2",
-          discord: "#5865F2",
           github: "#181717",
         },
         boxShadow: {
