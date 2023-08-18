@@ -2,31 +2,8 @@ import { LuMapPin, LuMail } from "react-icons/lu";
 import { ThemeToggle } from '@/components/theme.toggle'
 import { siteConfig } from '@/config/site.config'
 import Image from 'next/image'
-
-const GridItems = new Array(36).fill(0);
-const GridItems2 = [
-  {
-    className: "rounded-lg bg-emerald-100 col-span-2 row-span-2",
-  },
-  {
-    className: "rounded-lg bg-emerald-100 col-span-1 row-span-2",
-  },
-  {
-    className: "rounded-lg bg-emerald-100 col-span-1 row-span-2",
-  },
-  {
-    className: "rounded-lg bg-emerald-100 col-span-2 row-span-4",
-  },
-  {
-    className: "rounded-lg bg-emerald-100 col-span-2 row-span-2",
-  },
-  {
-    className: "rounded-lg bg-emerald-100 col-span-2 row-span-1",
-  },
-  {
-    className: "rounded-lg bg-emerald-100 col-span-2 row-span-1",
-  },
-];
+import GridItems from "@/components/grid.item";
+import { title } from "process";
 
 export default function Home() {
   return (
@@ -78,8 +55,12 @@ export default function Home() {
 
       <div className="flex-1 h-full">
         <div className="w-full h-full p-6 overflow-y-auto grid grid-cols-4 auto-rows-[76px] gap-10">
-          {GridItems2.map((item, index) => {
-            return <div key={index} className={item.className} /> 
+          {siteConfig.items.map((item, index) => {
+            return (
+              <GridItems key={item.title + index} size={item.layout}>
+                <div>{item.title}</div>
+              </GridItems>
+            );
           })}
         </div>
       </div>
