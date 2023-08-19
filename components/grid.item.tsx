@@ -1,5 +1,6 @@
 import { cn } from "@/utils/cn";
 import { cva, type VariantProps } from "class-variance-authority";
+import React from "react";
 
 const variants = cva (
   "shadow-grid rounded-3xl bg-white dark:bg-neutral-900 flex flex-col justify-center", 
@@ -17,6 +18,8 @@ const variants = cva (
     },
   }
 );
+
+type GridItemsProps = {children: React.ReactNode} & VariantProps<typeof variants>;
 
 const GridItems = ({ 
     size, 
