@@ -21,13 +21,7 @@ const variants = cva (
 
 type GridItemsProps = {children: React.ReactNode} & VariantProps<typeof variants>;
 
-const GridItems = ({ 
-    size, 
-    children 
-}: {
-    size:string, 
-    children: React.ReactNode
-}) => {
+const GridItems = ({ size, children }: GridItemsProps) => {
   return <div>{children}</div>
 };
 
