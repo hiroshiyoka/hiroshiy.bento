@@ -10,7 +10,7 @@ const variants = cva (
         "1x2": "col-span-1 row-span-2 p-8",
         "2x1": "col-span-2 row-span-1 px-8 py-4",
         "2x2": "col-span-2 row-span-2 p-8",
-        "2x4": "cols-span-2 row-span-4 relative overflow-hidden",
+        "2x4": "col-span-2 row-span-4 relative overflow-hidden",
       },
     },
     defaultVariants: {
@@ -22,7 +22,11 @@ const variants = cva (
 type GridItemsProps = {children: React.ReactNode} & VariantProps<typeof variants>;
 
 const GridItems = ({ size, children }: GridItemsProps) => {
-  return <div>{children}</div>
+  return ( 
+    <div className={cn(variants({ size, className: "bg-emerald-100" }))}>
+      {children}
+    </div>
+  );
 };
 
 export default GridItems
