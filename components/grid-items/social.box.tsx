@@ -6,7 +6,7 @@ const socialBox = ({ item }: { item:GridItemInterface }) => {
     <div>
         <div>
             <div>ICON</div>
-            { item.layout === "2x2" && <div>Button</div>}
+            { item.layout === "2x2" && <div>Button</div> }
         </div>
     </div>
   )
