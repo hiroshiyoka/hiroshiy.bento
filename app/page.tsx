@@ -4,6 +4,7 @@ import { siteConfig } from '@/config/site.config'
 import Image from 'next/image'
 import GridItems from "@/components/grid.item";
 import { title } from "process";
+import SocialBox from "@/components/grid-items/social.box";
 
 export default function Home() {
   return (
@@ -58,7 +59,7 @@ export default function Home() {
           {siteConfig.items.map((item, index) => {
             return (
               <GridItems key={item.title + index} size={item.layout}>
-                <div>{item.title}</div>
+                { item.type === 'social' ? ( <SocialBox item={item} /> ) : ( <div>Not implemented yet</div> )}
               </GridItems>
             );
           })}

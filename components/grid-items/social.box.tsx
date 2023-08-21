@@ -1,7 +1,7 @@
 import { GridItemInterface } from '@/config/site.config'
 import React from 'react'
 
-const socialBox = ({ item }: { item:GridItemInterface }) => {
+const SocialBox = ({ item }: { item:GridItemInterface }) => {
   return (
     <div>
         <div>
@@ -12,4 +12,4 @@ const socialBox = ({ item }: { item:GridItemInterface }) => {
   )
 }
 
-export default socialBox
+export default SocialBox
