@@ -6,7 +6,7 @@ const SocialBox = ({ item }: { item:GridItemInterface }) => {
   return (
     <div>
         <div className="flex items-center justify-between">
-            <Icon type={ item.icon ?? ""} color={item.color} />
+            <Icon type={ item.icon ?? "" } color={item.color} />
             { item.layout === "2x2" && <div>Button</div> }
         </div>
         <div className="mt-2">
