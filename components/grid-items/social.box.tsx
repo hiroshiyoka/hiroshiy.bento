@@ -8,6 +8,11 @@ const SocialBox = ({ item }: { item:GridItemInterface }) => {
             <div>ICON</div>
             { item.layout === "2x2" && <div>Button</div> }
         </div>
+        <div>
+            <div>{item.title}</div>
+            <div>{item.username}</div>
+            <div>{item.description}</div>
+        </div>
     </div>
   )
 }
