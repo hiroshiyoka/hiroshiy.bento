@@ -3,8 +3,8 @@ import React from 'react'
 
 const SocialBox = ({ item }: { item:GridItemInterface }) => {
   return (
-    <div className="flex items-center justify-between">
-        <div>
+    <div>
+        <div className="flex items-center justify-between">
             <div>ICON</div>
             { item.layout === "2x2" && <div>Button</div> }
         </div>
