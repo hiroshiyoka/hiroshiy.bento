@@ -1,11 +1,12 @@
 import { GridItemInterface } from '@/config/site.config'
 import React from 'react'
+import Icon from '../icon'
 
 const SocialBox = ({ item }: { item:GridItemInterface }) => {
   return (
     <div>
         <div className="flex items-center justify-between">
-            <div>ICON</div>
+            <Icon type={ item.icon ?? ""} color={item.color} />
             { item.layout === "2x2" && <div>Button</div> }
         </div>
         <div className="mt-2">
