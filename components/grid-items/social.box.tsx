@@ -11,7 +11,9 @@ const SocialBox = ({ item }: { item:GridItemInterface }) => {
         <div className="mt-2">
             <div className="text-lg font-semibold">{item.title}</div>
             <div className="text-sm text-neutral-500">{item.username}</div>
-            <div className="text-sm text-neutral-500">{item.description}</div>
+            {item.description && (
+              <div className="text-sm text-neutral-500 mt-1">{item.description}</div>
+            )}
         </div>
         {item.layout === '1x2' && <div>Button</div>}
     </div>
