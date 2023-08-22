@@ -20,17 +20,19 @@ const SocialBox = ({ item }: { item: GridItemInterface }) => {
         <div className="text-lg font-semibold">{item.title}</div>
         <div className="text-sm text-neutral-500">{item.username}</div>
         {item.description && (
-          <div className="text-sm text-neutral-500 mt-1">
+          <div className="text-sm text-neutral-500 mt-1 line-clamp-2">
             {item.description}
           </div>
         )}
       </div>
       {item.layout === "1x2" && (
-        <Button
-          text={item.buttonTitle ?? ""}
-          secondaryText={item.buttonSecondaryText}
-          color={item.color}
-        />
+        <div className="mt-2">
+          <Button
+            text={item.buttonTitle ?? ""}
+            secondaryText={item.buttonSecondaryText}
+            color={item.color}
+          />
+        </div>
       )}
     </div>
   );
