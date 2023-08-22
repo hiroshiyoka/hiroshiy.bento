@@ -2,10 +2,11 @@ import { GridItemInterface } from "@/config/site.config";
 import React from "react";
 import Icon from "../icon";
 import Button from "../button";
+import Link from "next/link";
 
 const SocialBox = ({ item }: { item: GridItemInterface }) => {
   return (
-    <div>
+    <Link href={item.buttonLink ?? ""}>
       <div className="flex items-center justify-between">
         <Icon type={item.icon ?? ""} color={item.color} />
         {item.layout === "2x2" && (
@@ -34,7 +35,7 @@ const SocialBox = ({ item }: { item: GridItemInterface }) => {
           />
         </div>
       )}
-    </div>
+    </Link>
   );
 };
 
