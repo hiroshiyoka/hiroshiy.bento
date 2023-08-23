@@ -6,7 +6,7 @@ const GithubBox = ({ item }: { item: GridItemInterface }) => {
   return (
     <div className="flex items-center gap-3">
       <Icon type={item.icon ?? ""} />
-      <div className="text-lg font-semibold">{item.title}</div>
+      <div className="w-full text-lg font-semibold">{item.title}</div>
     </div>
   );
 };
