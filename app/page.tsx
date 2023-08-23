@@ -5,7 +5,7 @@ import Image from "next/image";
 import GridItems from "@/components/grid.item";
 import { title } from "process";
 import SocialBox from "@/components/grid-items/social.box";
-import GithubBox from "@/components/grid-items/github.box";
+import ProjectBox from "@/components/grid-items/project.box";
 
 export default function Home() {
   return (
@@ -66,7 +66,7 @@ export default function Home() {
                 {item.type === "social" ? (
                   <SocialBox item={item} />
                 ) : item.type === "project" ? (
-                  <GithubBox item={item} />
+                  <ProjectBox item={item} />
                 ) : (
                   <div>Not Implemented yet.</div>
                 )}
