@@ -4,9 +4,9 @@ import { GridItemInterface } from "@/config/site.config";
 
 const GithubBox = ({ item }: { item: GridItemInterface }) => {
   return (
-    <div>
+    <div className="flex items-center gap-3">
       <Icon type={item.icon ?? ""} />
-      <div>{item.title}</div>
+      <div className="text-lg font-semibold">{item.title}</div>
     </div>
   );
 };
