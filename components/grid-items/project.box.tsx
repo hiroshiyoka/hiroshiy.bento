@@ -9,8 +9,8 @@ const ProjectBox = ({ item }: { item: GridItemInterface }) => {
     <Link className="flex items-center gap-3" href={item.buttonLink ?? ""}>
       <Icon type={item.icon ?? ""} color={item.color} />
       <div className="w-full text-lg font-semibold">{item.title}</div>
-      <div>
-        <span>{item.stars}</span>
+      <div className="flex items-center gap-1">
+        <span className="mt-[1px]">{item.stars}</span>
         <Star size="16" fill="currentColor" />
       </div>
     </Link>
