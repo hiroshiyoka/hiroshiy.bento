@@ -2,6 +2,7 @@ import React from "react";
 import Icon from "../icon";
 import { GridItemInterface } from "@/config/site.config";
 import Link from "next/link";
+import { Star } from "lucide-react";
 
 const ProjectBox = ({ item }: { item: GridItemInterface }) => {
   return (
@@ -10,6 +11,7 @@ const ProjectBox = ({ item }: { item: GridItemInterface }) => {
       <div className="w-full text-lg font-semibold">{item.title}</div>
       <div>
         <span>{item.stars}</span>
+        <Star size="16" fill="currentColor" />
       </div>
     </Link>
   );
