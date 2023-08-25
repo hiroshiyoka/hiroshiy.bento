@@ -2,11 +2,11 @@ import { GridItemInterface } from "@/config/site.config";
 import Image from "next/image";
 import React from "react";
 
-const SpotifyPlaylist = ({ title }: { title: GridItemInterface }) => {
+const SpotifyPlaylist = ({ item }: { item: GridItemInterface }) => {
   return (
     <div>
       <div>
-        <Image src={item.image ?? ""} alt="bg-image" />
+        <Image src={item.images ?? ""} alt="bg-image" />
       </div>
     </div>
   );
