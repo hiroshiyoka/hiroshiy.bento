@@ -6,6 +6,7 @@ import GridItems from "@/components/grid.item";
 import { title } from "process";
 import SocialBox from "@/components/grid-items/social.box";
 import ProjectBox from "@/components/grid-items/project.box";
+import SpotifyPlaylist from "@/components/grid-items/spotify.playlist";
 
 export default function Home() {
   return (
@@ -67,8 +68,10 @@ export default function Home() {
                   <SocialBox item={item} />
                 ) : item.type === "project" ? (
                   <ProjectBox item={item} />
+                ) : item.type === "music" ? (
+                  <SpotifyPlaylist item={item} />
                 ) : (
-                  <div>Not Implemented yet.</div>
+                  <div>Not implemented yet</div>
                 )}
               </GridItems>
             );
