@@ -6,7 +6,12 @@ const SpotifyPlaylist = ({ item }: { item: GridItemInterface }) => {
   return (
     <div>
       <div>
-        <Image src={item.images ?? ""} alt="bg-image" />
+        <Image
+          className="object-cover object-center"
+          fill
+          src={item.images ?? ""}
+          alt="bg-image"
+        />
       </div>
     </div>
   );
