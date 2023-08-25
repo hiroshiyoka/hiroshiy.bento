@@ -5,14 +5,13 @@ import React from "react";
 const SpotifyPlaylist = ({ item }: { item: GridItemInterface }) => {
   return (
     <div>
-      <div>
-        <Image
-          className="object-cover object-center"
-          fill
-          src={item.images ?? ""}
-          alt="bg-image"
-        />
-      </div>
+      <div />
+      <Image
+        className="object-cover object-center"
+        fill
+        src={item.images ?? ""}
+        alt="bg-image"
+      />
     </div>
   );
 };
