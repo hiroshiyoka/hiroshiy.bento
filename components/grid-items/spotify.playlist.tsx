@@ -4,7 +4,7 @@ import React from "react";
 
 const SpotifyPlaylist = ({ item }: { item: GridItemInterface }) => {
   return (
-    <div>
+    <div className="flex flex-col justify-end w-full h-full">
       <div className="absolute inset-0 z-10 bg-gradient-to-b from-transparent via-neutral-950/60 to-neutral-950/90" />
       <Image
         className="object-cover object-center"
