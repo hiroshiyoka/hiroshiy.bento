@@ -12,7 +12,9 @@ const SpotifyPlaylist = ({ item }: { item: GridItemInterface }) => {
         src={item.images ?? ""}
         alt="bg-image"
       />
-      <div className="relative z-20 p-8"></div>
+      <div className="relative z-20 p-8">
+        <div className="text-2xl font-semibold text-white">{item.title}</div>
+      </div>
     </div>
   );
 };
