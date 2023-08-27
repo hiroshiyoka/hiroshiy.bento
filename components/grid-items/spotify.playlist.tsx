@@ -14,6 +14,11 @@ const SpotifyPlaylist = ({ item }: { item: GridItemInterface }) => {
       />
       <div className="relative z-20 p-8">
         <div className="text-sm font-medium text-white">{item.title}</div>
+        <div>
+          {item.playlist?.map((playlist) => {
+            return <div></div>;
+          })}
+        </div>
       </div>
     </div>
   );
