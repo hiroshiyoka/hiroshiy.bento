@@ -1,5 +1,6 @@
 import { GridItemInterface } from "@/config/site.config";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const SpotifyPlaylist = ({ item }: { item: GridItemInterface }) => {
@@ -16,7 +17,11 @@ const SpotifyPlaylist = ({ item }: { item: GridItemInterface }) => {
         <div className="text-sm font-medium text-white">{item.title}</div>
         <div>
           {item.playlist?.map((playlist) => {
-            return <div></div>;
+            return (
+              <Link key={playlist.link} href={playlist.link}>
+                {playlist.title}
+              </Link>
+            );
           })}
         </div>
       </div>
