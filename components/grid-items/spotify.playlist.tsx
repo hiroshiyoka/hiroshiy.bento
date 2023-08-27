@@ -15,10 +15,14 @@ const SpotifyPlaylist = ({ item }: { item: GridItemInterface }) => {
       />
       <div className="relative z-20 p-8">
         <div className="text-sm font-medium text-white">{item.title}</div>
-        <div>
+        <div className="flex flex-wrap items-center gap-3">
           {item.playlist?.map((playlist) => {
             return (
-              <Link key={playlist.link} href={playlist.link}>
+              <Link
+                className="px-2 py-1 font-medium bg-white rounded-lg dark:bg-neutral-900 text-sm"
+                key={playlist.link}
+                href={playlist.link}
+              >
                 {playlist.title}
               </Link>
             );
