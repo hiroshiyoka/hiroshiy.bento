@@ -14,7 +14,7 @@ const SpotifyPlaylist = ({ item }: { item: GridItemInterface }) => {
         alt="bg-image"
       />
       <div className="relative z-20 p-8">
-        <div className="text-sm font-medium text-white">{item.title}</div>
+        <div className="mb-3 text-sm font-medium text-white">{item.title}</div>
         <div className="flex flex-wrap items-center gap-3">
           {item.playlist?.map((playlist) => {
             return (
