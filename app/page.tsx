@@ -7,6 +7,7 @@ import { title } from "process";
 import SocialBox from "@/components/grid-items/social.box";
 import ProjectBox from "@/components/grid-items/project.box";
 import SpotifyPlaylist from "@/components/grid-items/spotify.playlist";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -50,12 +51,7 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="border-t border-neutral-200 dark:border-neutral-800 pt-6 text-xs flex items-center justify-between">
-            <div className="text-neutral-500">
-              Built by @hiroshiy | ©2023 hiroshiyoka. All Rights Reserved
-            </div>
-            <ThemeToggle />
-          </div>
+          <Footer />
         </div>
       </div>
 
