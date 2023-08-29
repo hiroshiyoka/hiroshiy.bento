@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex flex-col xl:flex-row flex-1 h-full w-full gap-10">
       <LeftSide />
       <RightSide />
-      <div className="flex xl:hidden">
+      <div className="flex xl:hidden px-8 pb-10 w-full">
         <Footer />
       </div>
     </main>
