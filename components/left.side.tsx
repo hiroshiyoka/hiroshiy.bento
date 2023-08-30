@@ -6,8 +6,8 @@ import Footer from "./footer";
 
 const LeftSide = () => {
   return (
-    <div className="flex-1 p-8 h-full max-w-md">
-      <div className="flex flex-col h-full rounded-md space-y-6">
+    <div className="flex-1 p-8 h-full w-full xl:max-w-md">
+      <div className="flex flex-col h-full w-full rounded-md space-y-6">
         <Image
           className="rounded-lg"
           alt="raka-fadilah"
