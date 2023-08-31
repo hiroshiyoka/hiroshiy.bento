@@ -7,8 +7,8 @@ import SpotifyPlaylist from "./grid-items/spotify.playlist";
 
 const RightSide = () => {
   return (
-    <div className="flex-1 h-full">
-      <div className="w-full h-full p-6 xl:overflow-y-auto grid grid-cols-1 md:grid-cols-4 auto-rows-[76px] gap-10">
+    <div className="flex-1 md:h-full">
+      <div className="w-full md:h-full p-6 xl:overflow-y-auto grid grid-cols-1 md:grid-cols-4 auto-rows-[76px] gap-10">
         {siteConfig.items.map((item, index) => {
           return (
             <GridItems key={item.title + index} size={item.layout}>
