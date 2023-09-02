@@ -6,7 +6,7 @@ import Footer from "./footer";
 
 const LeftSide = () => {
   return (
-    <div className="flex-1 pt-8 px-8 xl:p-8 h-full w-full xl:max-w-md">
+    <div className="flex-1 pt-8 px-8 xl:p-8 xl:h-full w-full xl:max-w-md">
       <div className="flex flex-col h-full w-full rounded-md space-y-6">
         <Image
           className="rounded-lg"
