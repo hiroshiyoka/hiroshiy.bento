@@ -1,9 +1,12 @@
+"use client";
+
 import { siteConfig } from "@/config/site.config";
 import React from "react";
 import GridItems from "./grid.item";
 import SocialBox from "./grid-items/social.box";
 import ProjectBox from "./grid-items/project.box";
 import SpotifyPlaylist from "./grid-items/spotify.playlist";
+import { useAnimate, stagger } from "framer-motion";
 
 const RightSide = () => {
   return (
