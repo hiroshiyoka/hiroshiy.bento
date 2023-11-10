@@ -8,7 +8,11 @@ import ProjectBox from "./grid-items/project.box";
 import SpotifyPlaylist from "./grid-items/spotify.playlist";
 import { useAnimate, stagger } from "framer-motion";
 
+const staggerDelay = stagger(0.1);
+
 const RightSide = () => {
+  const [scope, animate] = useAnimate();
+
   return (
     <div className="flex-1 md:h-full">
       <div className="w-full md:h-full p-6 xl:overflow-y-auto grid grid-cols-2 md:grid-cols-4 auto-rows-[76px] gap-6 xl:gap-10">
