@@ -1,6 +1,7 @@
 import { cn } from "@/utils/cn";
 import { cva, type VariantProps } from "class-variance-authority";
 import React from "react";
+import { motion } from "framer-motion";
 
 const variants = cva(
   "shadow-grid rounded-3xl bg-white dark:bg-neutral-900 flex flex-col justify-center @container",
@@ -25,9 +26,16 @@ type GridItemsProps = { children: React.ReactNode } & VariantProps<
 
 const GridItems = ({ size, children }: GridItemsProps) => {
   return (
-    <div className={cn(variants({ size, className: "bg-emerald-100" }))}>
+    <motion.div
+      initial={{
+        opacity: 0,
+        y: 60,
+        scale: 0.8,
+      }}
+      className={cn(variants({ size, className: "bg-emerald-100" }))}
+    >
       {children}
-    </div>
+    </motion.div>
   );
 };
 
