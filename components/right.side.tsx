@@ -9,7 +9,7 @@ import SpotifyPlaylist from "./grid-items/spotify.playlist";
 import { useAnimate, stagger } from "framer-motion";
 import { useEffect } from "react";
 
-const staggerDelay = stagger(0.1);
+const staggerDelay = stagger(0.02);
 
 const RightSide = () => {
   const [scope, animate] = useAnimate();
@@ -24,6 +24,7 @@ const RightSide = () => {
           scale: 1,
         },
         {
+          duration: 0.15,
           type: "spring",
           stiffness: 330,
           damping: 35,
