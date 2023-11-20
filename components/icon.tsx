@@ -35,6 +35,80 @@ const Icons: {
       </g>
     </svg>
   ),
+  linkedin: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 28.87 28.87"
+      id="linkedin"
+    >
+      <g data-name="Layer 2">
+        <g data-name="Layer 1">
+          <rect
+            width="28.87"
+            height="28.87"
+            fill="#0b86ca"
+            rx="6.48"
+            ry="6.48"
+          ></rect>
+          <path
+            fill="#fff"
+            d="M8 12h3v9.68H8zm1.53-4.81a1.74 1.74 0 11-1.74 1.75 1.74 1.74 0 011.74-1.75M12.92 12h2.89v1.32a3.16 3.16 0 012.85-1.56c3 0 3.61 2 3.61 4.61v5.31h-3V17c0-1.12 0-2.57-1.56-2.57s-1.8 1.22-1.8 2.48v4.79h-3z"
+          ></path>
+        </g>
+      </g>
+    </svg>
+  ),
+  instagram: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 28.87 28.87"
+      id="instagram"
+    >
+      <defs>
+        <linearGradient
+          id="a"
+          x1="-1.84"
+          x2="32.16"
+          y1="30.47"
+          y2="-3.03"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0" stop-color="#fed576"></stop>
+          <stop offset=".26" stop-color="#f47133"></stop>
+          <stop offset=".61" stop-color="#bc3081"></stop>
+          <stop offset="1" stop-color="#4c63d2"></stop>
+        </linearGradient>
+      </defs>
+      <g data-name="Layer 2">
+        <g data-name="Layer 1">
+          <rect
+            width="28.87"
+            height="28.87"
+            fill="url(#a)"
+            rx="6.48"
+            ry="6.48"
+          ></rect>
+          <g data-name="<Group>">
+            <path
+              fill="#fff"
+              d="M10 5h9c.2.1.5.1.7.2a4.78 4.78 0 0 1 3.8 3.3 8 8 0 0 1 .3 1.5v8.8a6.94 6.94 0 0 1-1.2 3.1 5.51 5.51 0 0 1-4.5 1.9h-7.5a5.49 5.49 0 0 1-3.7-1.2A5.51 5.51 0 0 1 5 18.14v-7a7.57 7.57 0 0 1 .1-1.5 4.9 4.9 0 0 1 3.8-4.3zm-3.1 9.5v3.9a3.42 3.42 0 0 0 3.7 3.7q3.9.15 7.8 0c2.3 0 3.6-1.4 3.7-3.7q.15-3.9 0-7.8a3.52 3.52 0 0 0-3.7-3.7q-3.9-.15-7.8 0a3.42 3.42 0 0 0-3.7 3.7z"
+              data-name="<Compound Path>"
+            ></path>
+            <path
+              fill="#fff"
+              d="M9.64 14.54a4.91 4.91 0 0 1 4.9-4.9 5 5 0 0 1 4.9 4.9 4.91 4.91 0 0 1-4.9 4.9 5 5 0 0 1-4.9-4.9zm4.9-3.1a3.05 3.05 0 1 0 3 3 3 3 0 0 0-3-3z"
+              data-name="<Compound Path>"
+            ></path>
+            <path
+              fill="#fff"
+              d="M18.34 9.44a1.16 1.16 0 0 1 1.2-1.2 1.29 1.29 0 0 1 1.2 1.2 1.2 1.2 0 0 1-2.4 0z"
+              data-name="<Path>"
+            ></path>
+          </g>
+        </g>
+      </g>
+    </svg>
+  ),
 };
 
 const Icon = ({ type, color = "#fff" }: { type: string; color?: string }) => {

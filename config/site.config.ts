@@ -23,7 +23,7 @@ export interface GridItemInterface {
 
 const GridItems: GridItemInterface[] = [
   {
-    layout: "2x2",
+    layout: "1x2",
     type: "social",
     title: "Github",
     icon: "github",
@@ -39,20 +39,20 @@ const GridItems: GridItemInterface[] = [
     type: "social",
     title: "Twitter",
     icon: "twitter",
-    username: "@fraksyf_",
+    username: "@fraksyf",
     color: "#1da1f2",
     buttonTitle: "Follow",
-    buttonLink: "https://twitter.com/fraksyf_",
+    buttonLink: "https://twitter.com/fraksyf",
     buttonSecondaryText: "13",
   },
   {
-    layout: "1x2",
+    layout: "2x2",
     type: "social",
     title: "LinkedIn",
     icon: "linkedin",
     username: "Raka Fadilah Syafaat",
-    color: "#070707",
-    buttonTitle: "Follow",
+    color: "#0b86ca",
+    buttonTitle: "Connect",
     buttonLink: "https://linkedin.com/in/raka-fadilah",
     buttonSecondaryText: "64",
   },
@@ -97,7 +97,7 @@ const GridItems: GridItemInterface[] = [
     buttonTitle: "Follow",
     buttonLink: "https://instagram.com/mosaicman_",
     buttonSecondaryText: "120",
-    color: "#ff0000",
+    color: "#f47133",
   },
   {
     layout: "2x1",
