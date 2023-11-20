@@ -40,7 +40,7 @@ const GridItems: GridItemInterface[] = [
     title: "Twitter",
     icon: "twitter",
     username: "@fraksyf",
-    color: "#1da1f2",
+    color: "#0a93e2",
     buttonTitle: "Follow",
     buttonLink: "https://twitter.com/fraksyf",
     buttonSecondaryText: "13",
