@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const variants = cva(
-  "shadow-grid rounded-3xl bg-white dark:bg-neutral-900 flex flex-col justify-center @container",
+  "shadow-grid border rounded-3xl bg-white dark:bg-neutral-900 dark:border-neutral-900 flex flex-col justify-center @container",
   {
     variants: {
       size: {
@@ -32,7 +32,7 @@ const GridItems = ({ size, children }: GridItemsProps) => {
         y: 60,
         scale: 0.8,
       }}
-      className={cn(variants({ size, className: "bg-emerald-100" }))}
+      className={cn(variants({ size, className: "bg-white" }))}
     >
       {children}
     </motion.div>
