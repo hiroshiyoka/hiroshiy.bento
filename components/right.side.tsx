@@ -32,7 +32,7 @@ const RightSide = () => {
         }
       );
     }
-  }, [scope]);
+  }, [scope, animate]);
 
   return (
     <div className="flex-1 md:h-full">
