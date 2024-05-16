@@ -32,7 +32,7 @@ const GridItems: GridItemInterface[] = [
     color: "#070707",
     buttonTitle: "Follow",
     buttonLink: "https://github.com/hiroshiyoka",
-    buttonSecondaryText: "4",
+    buttonSecondaryText: "5",
   },
   {
     layout: "1x2",
@@ -43,7 +43,7 @@ const GridItems: GridItemInterface[] = [
     color: "#0a93e2",
     buttonTitle: "Follow",
     buttonLink: "https://twitter.com/fraksyf",
-    buttonSecondaryText: "13",
+    buttonSecondaryText: "33",
   },
   {
     layout: "2x2",
@@ -54,7 +54,7 @@ const GridItems: GridItemInterface[] = [
     color: "#0b86ca",
     buttonTitle: "Connect",
     buttonLink: "https://linkedin.com/in/raka-fadilah",
-    buttonSecondaryText: "64",
+    buttonSecondaryText: "149",
   },
   {
     layout: "2x4",
@@ -96,7 +96,7 @@ const GridItems: GridItemInterface[] = [
     username: "@mosaicman_",
     buttonTitle: "Follow",
     buttonLink: "https://instagram.com/mosaicman_",
-    buttonSecondaryText: "120",
+    buttonSecondaryText: "127",
     color: "#f47133",
   },
   {
